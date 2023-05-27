@@ -1,0 +1,152 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+
+  header nav a {
+    font-style: normal;
+    font-size: 1.7em;
+  }
+
+  header h1 {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+
+  header nav {
+    margin-left: 30px;
+  }
+  
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  header nav ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  header nav ul li:hover > ul {
+    display: block;
+  }
+  
+  header nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: black;
+  }
+  
+  header nav ul ul li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  header nav ul ul li a {
+    padding: 10px 15px;
+    color: white;
+  }
+  
+  header nav ul ul li a:hover {
+    background-color: #333;
+  }
+  
+
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+main {
+  margin-top: 150px;
+  margin-left: 55px;
+  color: white;
+}
+
+.text {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 5%;
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Establece el ancho al 100% */
+    bottom: 0; /* Alinea el pie de página en la parte inferior */
+    left: 0; /* Alinea el pie de página a la izquierda */
+    color: white;
+    text-decoration: none;
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+  section{
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 150px;
+    color: white;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 1;
+  background-color: rgb(24, 24, 24);
+  color: azure;
+  padding: 10px;
+}
+
+main nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #3c0404;
+  color: azure;
+  padding: 20px;
+  font-size: 14.5px;
+}
+
+main nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.indt{
+  text-indent: 25px;
+  color:rgb(194, 163, 163);
+  list-style-type: none;
+}
+
+/* Indent the text twice */
+.indt2{
+  text-indent: 50px;
+  color:#e2e2e2;
+}
